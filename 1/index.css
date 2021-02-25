@@ -1,9 +1,28 @@
+body{
+          margin: 0;
+      
+}
 .menu{
           background-color: aqua;
           width: max-content;
           padding: 1rem;
-          transform: translateX(100px);
+          transform: translateX(-100px);
+          transition: .5s;
 }
 .menu1{
+          background-color: red;
           transform: translateX(0px);
+}
+.h1{
+          color: blue;
+          background-color: black;
+          width: max-content;
+}
+.all{
+          width: 100%;
+          height: 100vh;
+          background-color:lightblue;
+}
+.all1{
+          background-color: antiquewhite;
 }
