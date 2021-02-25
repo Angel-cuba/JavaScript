@@ -1,0 +1,29 @@
+Nota: Ejercicios para realizar al final de la seccion.
+
+1: Pidele al usuario que ingrese dos numeros enteros por teclado
+y determine los siguientes aspectos.
+
+1: Si ambos numeros son iguales
+2: Si los numeros son diferentes
+3: Si el primero  es mayor al segundo
+4: Si el segundo es mayor al primero
+
+
+2: Determina que el resultado tienen los siguientes ejemplos
+
+print(not True)
+
+print(True and True)
+
+print(not False)
+
+print(Falsa or True)
+
+
+3: Con operadores logicos, determina si una cadena de texto ingresada por el usuario
+tiene una longitud mayor o igual a 3 y a su vez es menor a 10. (tru o false)
+
+4: Crea una variable y asignale un valor entero. Pidele al usuario un numero por teclado, crea una variable usuario,
+a la misma variable asignale una multiplicacion por 9. 
+Luego multiplica en asignacion la primer variable con la segunda e imprime
+en pantalla el resultado.

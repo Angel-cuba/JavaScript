@@ -32,5 +32,7 @@ switch (figure){
                     radius = prompt('Enter el radio: ')
                     figura.textContent = `El area del círculo es ${Math.PI * Math.pow(radius,2)}`;   
                     break;
+          default:
+                    figura.textContent = `Figura no válida`
 }
 })
