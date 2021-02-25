@@ -1,0 +1,9 @@
+.menu{
+          background-color: aqua;
+          width: max-content;
+          padding: 1rem;
+          transform: translateX(100px);
+}
+.menu1{
+          transform: translateX(0px);
+}
