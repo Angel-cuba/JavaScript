@@ -1,5 +1,5 @@
 // console.log('hola')
-// const example = document.getElementById('example')
+ const example = document.getElementById('example')
 
 // let num = parseInt(prompt('Enter un número: '))
 
@@ -97,3 +97,4 @@ const useronline = users.reduce((acc, user) =>{
 }, []);
 
 console.log(`Hay ${useronline} users online`)
+example.textContent = `Hay ${useronline} users online`
