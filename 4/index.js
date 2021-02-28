@@ -1,9 +1,9 @@
-const numbers = [-23,43,65,776,8,84,98];
+const numbers = [-23,43,65,776,8,84,98,43];
 
 // console.log(...numbers);
 
 const addNumbers = ( a,b,c) =>{
-          console.log(a+b+c);
+          console.log('El resultado de la suma es: ',a+b+c);
 }
 
 let numbersAdd = [3,4,5]
@@ -34,3 +34,10 @@ const restParams = (...numbers)=> {
           console.log(numbers)
 }
 restParams()
+
+// trabajar con la libreria math
+console.log(Math.max(...numbers))
+console.log(Math.min(...numbers))
+
+//Eliminar elementos duplicados 
+console.log(new Set(numbers))
