@@ -1,7 +1,7 @@
 const btn = document.getElementById('btn')
 
 
-addEventListener('click', (e) => {
+btn.addEventListener('click', (e) => {
      console.log(e)
 })
 
@@ -24,4 +24,17 @@ console.log(location.hash)
 //location.reload() 
 //location.href = 'http://google.com'
 
+//Como usar el objeto DAY
+const date = new Date()
 
+console.log(date)
+
+btn.addEventListener('click', () => {
+//  setTimeout(saluda, 2000)
+ const timeout = setTimeout(() => {
+      console.log('chao')
+  }, 3000)
+})
+    const saluda =() => {
+      console.log('hola')    
+     }
