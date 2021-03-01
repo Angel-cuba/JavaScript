@@ -14,7 +14,7 @@ console.log(input)
 
 button.addEventListener('click',(e)=>{
      title.classList.toggle('title')
-//     console.log(e.target)
+//TODO:console.log(e.target)
      if (title.classList.contains('title')) {
      console.log('tiene la clase')
      // title.style.backgroundColor= 'red'
