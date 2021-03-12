@@ -3,6 +3,7 @@ const btn = document.getElementById('btn');
 btn.addEventListener('click', () => {
 
 let xhr
+// testing
 
 if (window.XMLHttpRequest) xhr = new XMLHttpRequest();
      else xhr = new ActiveXObject("Microsoft.XMLHTTP");
