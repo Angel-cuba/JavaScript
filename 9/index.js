@@ -1,4 +1,11 @@
 const btn = document.getElementById('btn')
+const btn1 = document.getElementById('btn1')
+const b1 = document.getElementById('b1')
+
+
+const input = document.getElementById('input')
+
+
 
 
 btn.addEventListener('click', (e) => {
@@ -35,6 +42,14 @@ btn.addEventListener('click', () => {
       console.log('chao')
   }, 3000)
 })
-    const saluda =() => {
-      console.log('hola')    
-     }
+    const saluda =(user) => {
+       console.log(`hola ${user}`)    
+   
+    }
+
+
+     saluda(yo.name)
+
+btn1.addEventListener('click', (e) =>{
+     b1.textContent= 'Hello new element'
+})
