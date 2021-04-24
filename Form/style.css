@@ -1,0 +1,14 @@
+.form{
+     width: max-content;
+     text-align: center;
+     background-color: aqua;
+     padding: 2rem;
+}
+
+.form_field {
+     width:100%;
+     display: flex;
+     /* justify-content: space-around; */
+     align-items: center;
+     margin-bottom: 1rem;
+}
