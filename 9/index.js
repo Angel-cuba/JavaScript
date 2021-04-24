@@ -3,7 +3,7 @@ const btn1 = document.getElementById('btn1')
 const b1 = document.getElementById('b1')
 
 
-const input = document.getElementById('input')
+
 
 
 
