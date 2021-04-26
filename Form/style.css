@@ -1,8 +1,9 @@
 .form{
      width: max-content;
      text-align: center;
-     background-color: aqua;
+     background-color: rgb(60, 68, 68);
      padding: 2rem;
+     color:aliceblue;
 }
 
 .form_field {
@@ -11,4 +12,7 @@
      /* justify-content: space-around; */
      align-items: center;
      margin-bottom: 1rem;
+}
+button{
+     background-color: red;
 }
